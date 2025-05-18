@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 30%;
+   
+}
+
+table tr th {
+    border-bottom: 2px solid #ff4757;
+    padding: 1%;
+    text-align: center;
+}
+
+
+.btn-primary {
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #70a1ff;
+}
+
+.btn-secondary {
+  padding: 3px 3px;
+  background-color: rgb(12, 141, 12);
+  color: #fff;
+  cursor: pointer;
+  font-family: Segoe UI Black;
+  color: white;
+  margin: 2%;
+}
+
+.success {
+    color: #00b894;
+}
+.error {
+    color: #d63031;
+}
+
+
+/*  CSS FOR MENU */
+.menu {
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #70a1ff;
+}
+
+.menu ul li a:hover {
+    color: #ff6b81;
+}    
+
+/*  CSS FOR MAIN-CONTENT */
+.main-content {
+    background-color: #dfe4ea;
+    padding: 3% 0;
+}
+
+
+
+/*  CSS FOR FOOTER */
+.footer {
+    background-color: #70a1ff;
+}
